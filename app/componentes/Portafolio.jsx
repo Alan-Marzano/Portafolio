@@ -40,7 +40,7 @@ function Portafolio() {
                             </Image>
 
                             <div className="portafolio-descripción">
-                                <h4>Alejandro's</h4>
+                                <h4>Alejandro&apos;s</h4>
                                 <p>Modelo de restaurante, con presentación del lugar y servicios.</p>
                                 <a href="#" className="btn-color">Visitar página</a>
 
