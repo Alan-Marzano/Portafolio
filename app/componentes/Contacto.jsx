@@ -26,7 +26,7 @@ function Contacto() {
 
                     <input type="submit" value="Enviar mensaje" className="btn-color"></input>
 
-                    <input type="hidden" name="_next" value="http://localhost:3000/" />
+                    <input type="hidden" name="_next" value="https://portfolio-alan-marzano.vercel.app/" />
 
                 </form>
             </AnimacionDos>

@@ -913,6 +913,16 @@ nav .navbar-brand {
         height: 53rem;
     }
 
+    .p h1 {
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+
+    .p h3 span {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+
     .portafolio {
         height: 50rem;
     }
@@ -941,6 +951,16 @@ nav .navbar-brand {
     .presentacion .row-p {
         width: 100%;
         margin-top: 2rem;
+    }
+
+    .p h1 {
+        font-size: 1.6rem;
+        margin-left: 0.5rem;
+    }
+
+    .p h3 span {
+        font-size: 1.2rem;
+        margin-left: 1rem;
     }
 
     .presentacion .img .imagen {
@@ -985,7 +1005,6 @@ nav .navbar-brand {
     .portafolio-container .portafolio-box {
         border-radius: 25px 0 25px 0;
     }
-
     
     .portafolio-box .portafolio-descripción {
         padding: 0 0.5rem;
