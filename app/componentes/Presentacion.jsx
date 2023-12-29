@@ -37,11 +37,11 @@ function Presentacion() {
                                 </AnimacionDer>
 
                                 <div className="redes">
-                                    <Link href="https://www.facebook.com/alan.marzanoguerra/"><FontAwesomeIcon icon={faFacebookF} width={9} /></Link>
+                                    <Link href="https://www.facebook.com/alan.marzanoguerra/"><FontAwesomeIcon icon={faFacebookF} width={9}  /></Link>
 
-                                    <Link href="https://www.instagram.com/marzanoalan/"><FontAwesomeIcon icon={faInstagram} width={13} /></Link>
+                                    <Link href="https://www.instagram.com/marzanoalan/"><FontAwesomeIcon icon={faInstagram} width={13}  /></Link>
 
-                                    <Link href="https://www.linkedin.com/in/alan-marzano-21702b259/"><FontAwesomeIcon icon={faLinkedinIn} width={13} /></Link>
+                                    <Link href="https://www.linkedin.com/in/alan-marzano-21702b259/"><FontAwesomeIcon icon={faLinkedinIn} width={13}  /></Link>
                                 </div>
 
                                 <a href="./AlanMarzanoCV.pdf" download className="btn-color">Descargar CV</a>
@@ -51,7 +51,7 @@ function Presentacion() {
 
                     <AnimacionDos>
                         <div className="img">
-                            <Image src="/images/alan.jpg"
+                            <Image src="/images/1.jpg"
                                 width={350}
                                 height={275}
                                 priority={true}

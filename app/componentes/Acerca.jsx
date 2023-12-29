@@ -15,7 +15,7 @@ function Acerca() {
 
                     <Animacionizq>
                         <div className="img-2" >
-                            <Image src="/images/alan.jpg"
+                            <Image src="/images/com.jpg"
                                 width={325}
                                 height={225}
                                 priority={true}

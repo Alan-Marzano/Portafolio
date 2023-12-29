@@ -16,7 +16,7 @@ const Animacion = ({ children }) => {
             animation1.start({
                 y: 0,
                 opacity: 1,     
-                transition: { type: 'spring', duration: 4, delay: 0.25, ease : 'ease'}
+                transition: { type: 'spring', duration: 2, delay: 0.25, ease : 'ease'}
             });
         }
        

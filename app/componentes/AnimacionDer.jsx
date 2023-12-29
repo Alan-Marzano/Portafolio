@@ -25,7 +25,7 @@ const AnimacionDer = ({ children }) => {
         <div ref={ref4}>
             <AnimatePresence>
                 <motion.div
-                initial={{x: 15, opacity: 0}} animate={animation3}
+                initial={{x: 25, opacity: 0}} animate={animation3}
                 > 
                 {children} 
                 </motion.div>

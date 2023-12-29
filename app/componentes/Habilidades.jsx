@@ -19,11 +19,12 @@ function habilidades() {
 
                 <AnimacionDos>
                     <div className="iconos">
-                        <FontAwesomeIcon icon={faHtml5} width={15} className="icon" />
-                        <FontAwesomeIcon icon={faCss3} width={15} className="icon" />
-                        <FontAwesomeIcon icon={faJs} width={15} className="icon" />
-                        <FontAwesomeIcon icon={faBootstrap} width={15} className="icon" />
-                        <FontAwesomeIcon icon={faReact} width={15} className="icon" />
+                        <FontAwesomeIcon icon={faHtml5} width={15} className="icon"  />
+                        <FontAwesomeIcon icon={faCss3} width={15} className="icon"  />
+                        <FontAwesomeIcon icon={faJs} width={15} className="icon"  />
+                        <FontAwesomeIcon icon={faBootstrap} width={15} className="icon"  />
+                        <FontAwesomeIcon icon={faReact} width={15} className="icon"  />
+
                     </div>
                 </AnimacionDos>
             </div>

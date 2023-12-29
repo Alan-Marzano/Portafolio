@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
-  { text: "Presentacion", href: "/#presentacion" },
+  { text: "Presentación", href: "/#presentacion" },
   { text: "Acerca", href: "/#acerca" },
   { text: "Habilidades", href: "/#habilidades" },
   { text: "Portafolio", href: "/#portafolio" },
