@@ -4,6 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import NavItem from "./NavItem";
 
+
 const MENU_LIST = [
   { text: "Presentación", href: "/#presentacion" },
   { text: "Acerca", href: "/#acerca" },
@@ -19,14 +20,14 @@ const Navbar = () => {
   return (
     <header>
       <nav className={`nav`}>
-        <Link className="navbar-brand" href={"/"}>Portafolio</Link>
+        <Link className="navbar-brand" href={"/"}>Portfolio</Link>
         <div
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
         >
           <div></div>
           <div></div>
-          <div></div> 
+          <div></div>
         </div>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MENU_LIST.map((menu, idx) => (
@@ -41,6 +42,7 @@ const Navbar = () => {
             </div>
           ))}
         </div>
+
       </nav>
     </header>
   );

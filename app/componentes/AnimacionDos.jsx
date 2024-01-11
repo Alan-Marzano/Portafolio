@@ -10,7 +10,6 @@ const AnimacionDos = ({ children }) => {
     const animation2 = useAnimation();
 
     useEffect(() => {
-        console.log("use effect hook, inView = ", inView2);
         if (inView2) {
             animation2.start({
                 y: 0,

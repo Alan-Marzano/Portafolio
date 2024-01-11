@@ -11,7 +11,6 @@ const AnimacionIzq = ({ children }) => {
     const animation4 = useAnimation();
 
     useEffect(() => {
-        console.log("use effect hook, inView = ", inView3);
         if (inView3) {
             animation4.start({
                 x: 0,

@@ -10,7 +10,6 @@ const AnimacionDer = ({ children }) => {
     const animation3 = useAnimation();
     
     useEffect(() => {
-        console.log("use effect hook, inView = ", inView4);
         if (inView4) {
             animation3.start({
                 x: 0,

@@ -1,8 +1,10 @@
 "use client"
 
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCss3, faHtml5, faReact, faBootstrap, faJs } from '@fortawesome/free-brands-svg-icons'
+import { FaHtml5, FaCss3, FaReact, FaBootstrap } from "react-icons/fa";
+import { SiJquery, SiJavascript, SiTypescript, SiTailwindcss, SiAdobephotoshop } from "react-icons/si";
+
+
 
 import Animacion from './Animacion'
 import AnimacionDos from './AnimacionDos'
@@ -19,12 +21,15 @@ function habilidades() {
 
                 <AnimacionDos>
                     <div className="iconos">
-                        <FontAwesomeIcon icon={faHtml5} width={15} className="icon"  />
-                        <FontAwesomeIcon icon={faCss3} width={15} className="icon"  />
-                        <FontAwesomeIcon icon={faJs} width={15} className="icon"  />
-                        <FontAwesomeIcon icon={faBootstrap} width={15} className="icon"  />
-                        <FontAwesomeIcon icon={faReact} width={15} className="icon"  />
-
+                        <FaHtml5 width={15} className="icon" title="HTML5" />
+                        <FaCss3 width={15} className="icon" title="CSS3" />
+                        <SiJavascript width={15} className="icon" title="JavaScript" />
+                        <FaBootstrap width={15} className="icon" title="Bootstrap" />
+                        <SiJquery width={15} className="icon" title="JQuery" />
+                        <FaReact width={15} className="icon" title="ReactJS" />
+                        <SiTypescript width={15} className="icon" title="TypeScript" />
+                        <SiTailwindcss width={15} className="icon" title="Tailwindcss" />
+                        <SiAdobephotoshop width={15} className="icon" title="Adobe Photoshop" />
                     </div>
                 </AnimacionDos>
             </div>
