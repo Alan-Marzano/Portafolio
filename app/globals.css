@@ -165,7 +165,7 @@ nav .navbar-brand {
 }
 
 .p h1 {
-    font-size: 2.7rem;
+    font-size: 2.3rem;
     font-weight: 700;
     color: rgb(69, 188, 196);
     margin-left: 2rem;
@@ -184,8 +184,9 @@ nav .navbar-brand {
 
 .p h3 span {
     color: #333332;
-    margin-left: 4.5rem;
-    font-size: 2rem;
+    margin-left: 4rem;
+    font-size: 1.7rem;
+    font-weight: 700;
 }
 
 .content-p .párrafo {
@@ -285,17 +286,19 @@ nav .navbar-brand {
     display: flex;
     align-items: center;
     grid-column: 2 / span 6;
+ 
 }
 
 .contenidos .titulo {
     text-align: left;
     font-size: 2rem;
     font-weight: 700;
-}
+    
+} 
 
 .contenidos h2 {
     font-size: 2rem;
-    color: #333332 !important;
+    
 }
 
 .contenidos h2 span {
@@ -311,9 +314,10 @@ nav .navbar-brand {
 .contenidos .párrafo-2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1rem;
+    
 }
 
-.acerca .img-2 {
+.acerca .img-2 { 
     overflow: hidden;
     grid-column: 1;
     object-fit: cover;
@@ -789,9 +793,20 @@ nav .navbar-brand {
     }
 
 
+    .habilidades {
+        height: 40rem;
+    }
+
+    .habilidades .contenido-h {
+        height: 30rem;
+        padding-top: 2rem;
+        padding-bottom: 15rem;
+    }
+
+
     .portafolio {
         width: 100%;
-        height: 50rem;
+        height: 74rem;
     }
 
     .portafolio .portafolio-container {
@@ -806,6 +821,7 @@ nav .navbar-brand {
     .portafolio-container .portafolio-box {
         width: 70%;
         margin: auto;
+        min-width: 500px;
     }
 
 }
@@ -882,23 +898,26 @@ nav .navbar-brand {
 
 
     .habilidades {
-        height: 38rem;
+        height: 41rem;
     }
 
     .habilidades .contenido-h {
         width: 80%;
-        height: 32rem;
-        padding-bottom: 10rem;
+        height: 35rem;
+        padding-top: 2rem;
+        padding-bottom: 15rem;
     }
 
     .portafolio {
-        height: 60rem;
+        height: 72rem;
     }
 
     .portafolio-container .portafolio-box {
-        width: 100%;
+        width: 80%;
         margin: auto;
+        min-width: 465px;
     }
+
 
 
     .contacto form {
@@ -936,11 +955,11 @@ nav .navbar-brand {
     }
 
     .acerca .container-fluid-2 {
-        height: 56rem;
+        height: 60rem;
     }
 
     .acerca .row-a {
-        height: 56rem;
+        height: 60rem;
         margin-top: 4rem;
     }
 
@@ -949,12 +968,21 @@ nav .navbar-brand {
     }
 
     .habilidades .contenido-h {
-        width: 90%;
-        height: 36rem;
+        width: 100%;
+        height: 40rem;
+        padding-bottom: 15rem;
+    }
+
+
+    .portafolio {
+        height: 58rem;
     }
 
     .portafolio-container .portafolio-box {
         border-radius: 200px 0 200px 0;
+        width: 80%;
+        margin: auto;
+        min-width: 335px;
     }
 
     .portafolio-box .portafolio-descripción {
@@ -971,7 +999,7 @@ nav .navbar-brand {
     
 }
 
-@media screen and (max-width: 368px) {
+@media screen and (max-width: 376px) {
 
     .presentacion {
         height: 53rem;
@@ -1021,13 +1049,13 @@ nav .navbar-brand {
     }
 
     .habilidades {
-        height: 45rem;
+        height: 50rem;
     }
 
     .habilidades .contenido-h {
         width: 100%;
-        height: 45rem;
-        padding-bottom: 18rem;
+        height: 50rem;
+        padding-bottom: 25rem;
     }
 
     .iconos {
@@ -1037,11 +1065,15 @@ nav .navbar-brand {
     }
 
     .portafolio {
-        height: 42rem;
+        height: 55rem;
     }
 
     .portafolio-container .portafolio-box {
         border-radius: 25px 0 25px 0;
+        width: 100%;
+        margin: auto;
+        min-width: 240px;
+        min-height: 175px;
     }
     
     .portafolio-box .portafolio-descripción {
@@ -1063,4 +1095,5 @@ nav .navbar-brand {
     }
 
 }
+
 

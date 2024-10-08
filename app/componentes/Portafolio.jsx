@@ -13,21 +13,22 @@ function Portafolio() {
 
             <AnimacionDos>
                 <div className="row">
+
                     <div className="portafolio-container col-sm-6 md-12">
-                        <div className="portafolio-box notas">
-                            <Image src="/images/lista.jpg"
+                        <div className="portafolio-box alejandros">
+                            <Image src="/images/e-commerce.jpg"
                                 width={300}
                                 height={300}
                                 priority={true}
-                                alt="lista-3d">
+                                alt="e-commerce">
                             </Image>
 
                             <div className="portafolio-descripción">
-                                <h4>Lista-3d</h4>
-                                <p>Aplicación práctica y dinámica para tomar apuntes.</p>
+                                <h4>Teslo-Shop</h4>
+                                <p>Tienda online basada en el E-commerce de Tesla</p>
                                 <div>
-                                    <a href="https://lista-3d.vercel.app/" className="btn-color">Ver página</a>
-                                    <a href="https://github.com/Alan-Marzano/lista-3d" className="btn-color">Ver código</a>
+                                    <a href="https://e-commerce-alanmarzanos-projects.vercel.app/" className="btn-color">Ver página</a>
+                                    <a href="https://github.com/Alan-Marzano/Teslo-Shop" className="btn-color">Ver código</a>
                                 </div>
                             </div>
                         </div>
@@ -52,6 +53,27 @@ function Portafolio() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="portafolio-container col-sm-6 md-12">
+                        <div className="portafolio-box notas">
+                            <Image src="/images/lista.jpg"
+                                width={300}
+                                height={300}
+                                priority={true}
+                                alt="lista-3d">
+                            </Image>
+
+                            <div className="portafolio-descripción">
+                                <h4>Lista-3d</h4>
+                                <p>Aplicación práctica y dinámica para tomar apuntes.</p>
+                                <div>
+                                    <a href="https://lista-3d.vercel.app/" className="btn-color">Ver página</a>
+                                    <a href="https://github.com/Alan-Marzano/lista-3d" className="btn-color">Ver código</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </AnimacionDos>
 

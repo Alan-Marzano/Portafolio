@@ -31,11 +31,11 @@ function Acerca() {
                                 <h2 className="titulo">Acerca <span>De Mi</span></h2>
                             </Animacion>
 
-                            <h3>Frontend developer</h3>
+                            <h3>Full Stack Web Developer</h3>
 
                             <AnimacionDer>
                                 <p className="párrafo-2">
-                                    Soy estudiante en la carrera de desarrollo fullstack, actualmente me desempeño como  desarrollador frontend, con bases teóricas adquiridas en Udemy.<br />
+                                    Soy Desarrollador Full Stack, actualmente me desempeño como  desarrollador frontend, con bases teóricas adquiridas en Udemy.<br />
                                     Soy una persona proactiva, con aptitudes de líder que le gusta trabajar en equipo, he desarrollado proyectos de forma independiente y autodidacta.<br />
                                     Tengo formación académica y habilidades técnicas en diferentes tecnologías líderes  como HTML, CSS, JavaScript y React.<br />
                                     Me interesa seguir creciendo en mi formación como desarrollador, sumar experiencia y conocimientos; como también especializarme a futuro en otras áreas de interés como el diseño de proyectos.

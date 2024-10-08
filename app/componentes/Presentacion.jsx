@@ -27,7 +27,7 @@ function Presentacion() {
                                     <h1>Alan Marzano</h1>
                                 </AnimacionIzq>
 
-                                <h3><span>Frontend developer</span></h3>
+                                <h3><span>Full Stack Developer</span></h3>
 
                                 <AnimacionDer>
                                     <p className="párrafo">
